@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #2f4f4f;
+}
+
+button {
+  padding: 8px 14px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4682b4;
+  color: white;
+  cursor: pointer;
+}
+
+#gradesList {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
+  text-align: left;
+}
