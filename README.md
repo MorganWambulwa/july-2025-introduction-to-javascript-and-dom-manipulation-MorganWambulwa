@@ -1,63 +1,85 @@
-# 🚀 Assignment: Mastering JavaScript Fundamentals
+Classroom Tracker
 
-Welcome to your next step toward JavaScript mastery! In this assignment, you'll explore essential concepts that form the backbone of interactive, dynamic web pages—functions, loops, and the Document Object Model (DOM). Ready to code like a pro? Let’s dive in.
+A simple web app to track students in a classroom and estimate their grades. This project demonstrates JavaScript fundamentals, DOM manipulation, and basic HTML/CSS styling.
 
----
+Features
 
-## 🎯 Part 1: Mastering JavaScript Basics
+Add Students: Increment the number of students in the classroom and update the status.
 
-Start with the building blocks of JavaScript—variables, data types, operators, and conditionals. You’ll write a few simple programs that capture user input, make decisions using `if/else`, and output results using `console.log()` or by modifying the webpage content.
+Show Grades: Display pass/fail status for a predefined set of student scores.
 
-**Goal:** Demonstrate your understanding of how JavaScript flows, processes logic, and interacts with data.
+Dynamic UI: The page updates in real-time without refreshing.
 
----
+Simple Styling: Clean and minimal interface using CSS.
 
-## ❤️ Part 2: JavaScript Functions — The Heart of Reusability
+Technologies Used
 
-Functions are your best friends in programming. Write a few custom functions that take inputs, process them, and return or display results. You’ll also create functions for common tasks (like calculating totals, formatting strings, or toggling content).
+HTML5 – Structure and layout of the webpage.
 
-**Goal:** Build reusable blocks of logic that make your code cleaner, smarter, and DRY (Don't Repeat Yourself).
+CSS3 – Styling for buttons, lists, and background.
 
----
+JavaScript – DOM manipulation, event handling, loops, conditionals, and functions.
 
-## 🔁 Part 3: JavaScript Loops — Embrace the Power of Repetition!
+How It Works
 
-Use `for`, `while`, or `forEach` loops to solve repetitive tasks like iterating through arrays, generating dynamic content, or simulating simple countdowns or animations.
+Student Counter:
 
-**Goal:** Practice controlling flow with repetition and iteration—key to working with lists, animations, and form elements.
+The number of students is tracked using a variable.
 
----
+Clicking Add Student increases the count and updates the message.
 
-## 🌐 Part 4: Mastering the DOM with JavaScript
+Grade Estimation:
 
-It’s time to bring your page to life! Use JavaScript to select elements, respond to user actions, and dynamically update the content of your web page. Tasks may include changing text, toggling classes, listening to click events, or creating elements on the fly.
+A set of scores is evaluated using a function: scores ≥ 50 pass, others fail.
 
-**Goal:** Show your skill in making a static HTML page interactive using pure JavaScript and DOM manipulation.
+Clicking Show Grades generates a list of pass/fail messages.
 
----
+Loops & Conditionals:
 
-## Deliverables
+The app demonstrates for and while loops to iterate through subjects and countdown exams.
 
-* A single project folder containing:
+Conditionals handle classroom status and grade evaluation.
 
-  * `index.html` — your structured HTML content
-  * `style.css` — (optional) if you'd like to style your content
-  * `script.js` — your JavaScript file including:
+DOM Interaction:
 
-    * Variable declarations and conditionals (Part 1)
-    * At least 2 custom functions (Part 2)
-    * At least 2 loop examples (Part 3)
-    * At least 3 DOM interactions (Part 4)
+Event listeners are used to respond to button clicks.
 
-Each part of the assignment should be clearly commented and organized.
+The background color and status text update dynamically based on actions.
 
----
+Usage
 
-## Outcome
+Open index.html in a web browser.
 
-* Clear understanding of variables, conditionals, functions, loops, and DOM methods
-* Code readability and comments explaining your logic
-* Effective use of functions and loops to reduce repetition
-* DOM manipulation that improves interactivity
-* Clean structure and consistent indentation
+Click Add Student to increment the student count.
 
+Click Show Grades to view a list of students’ grades.
+
+Example Output
+
+Student Count: There are now 3 student(s) in the class.
+
+Grade List:
+
+Score 45: Fail
+
+Score 67: Pass
+
+Score 82: Pass
+
+Score 30: Fail
+
+Folder Structure
+Classroom-Tracker/
+├── index.html       # Main HTML file
+├── style.css        # Styles for the webpage
+└── script.js        # JavaScript logic and DOM interactions
+
+Learning Points
+
+JavaScript basics: variables, conditionals, loops, and functions.
+
+How to manipulate the DOM with JavaScript.
+
+Using addEventListener for interactive web elements.
+
+Basic CSS styling and layout principles.
